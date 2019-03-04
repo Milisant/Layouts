@@ -1,0 +1,109 @@
+@import "section.css";
+body,html{
+   margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header {
+       background-color: #c2b97f;
+       height: 64px;
+       width:100%;
+}
+header nav{
+          height: inherit;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          width: inherit;
+          max-width:1024px;
+          margin: auto;
+          box-sizing: border-box;
+}
+  .menu{
+    float: right;
+    list-style: none;
+    padding-top: 8px;
+  }
+  .menu li{
+        display: inline-block;
+        margin-right: 10px;
+  }
+  .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+
+  }
+.logo{
+  float: left;
+}
+.header-banner{
+  text-align: center;
+  line-height: 2;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  display: block;
+}
+.header-banner-container{
+  background-color: #c2b97f;
+}
+.header-banner h1{
+  font-size: 40px;
+  color: white;
+}
+.blurb-container{
+  margin: 3% auto;
+  height: 250px;
+}
+.blurb-container .blurb-item{
+  border: 1px solid white;
+  height: 200px;
+  float: left;
+  width: 230px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding-top: 7%;
+  background: #bce7fd;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.service-container {
+  background: #bce7fd
+  margin:
+}
+.service-container div{
+  display: inline-block;
+  vertical-align: top;
+  width: 18%;
+  padding: 10%;
+  margin: 10%;
+  height: 200px;
+  border: 2px solid #333;
+}
+.service-container div:nth-child(1){
+  width:50%;
+}
+  .Service-container div:nth-child(6){
+    width:50%;
+  }
+.header-text{
+  padding-left:
+}
+.contact-us-container{
+  background-color: #8e5572;
+  color:#fff;
+  padding: 20px;
+}
+.header-text h4{
+  font-size: 40px;
+}
+.form-container form label,
+.form-container form input,
+.form-container form textarea{
+  display: block;
+}
